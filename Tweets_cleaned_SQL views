@@ -1,0 +1,30 @@
+-----------------------------------------------------
+---- Twitter Data 'ChatGPT' imported from Python ----
+-----------------------------------------------------
+
+--Remove Whitespace from Tweets
+Update tweets_chatgpt_clean
+SET content_clean = TRIM(content_clean) ;
+
+-- Create view Top 10,000 highest like_count
+CREATE VIEW tweets_chatgpt_top_likes AS
+SELECT 
+		date
+	  , id
+	  , username
+	  , like_count
+	  , retweet_count
+	  , content_clean
+FROM tweets_chatgpt_clean
+ORDER BY like_count DESC
+LIMIT 10000;
+
+-- Create view total count of tweets by date
+CREATE VIEW tweets_chatgpt_daily_count AS
+SELECT
+	    date
+	  , COUNT(*) AS count
+FROM tweets_chatgpt_clean
+GROUP BY date
+ORDER BY date;
+
