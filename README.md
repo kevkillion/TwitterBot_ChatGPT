@@ -1,4 +1,4 @@
-![Wordcloud]([Wordcloud_tags.png](https://github.com/kevkillion/TwitterBot_ChatGPT/blob/main/Wordcloud_tags.png))
+![Wordcloud](Wordcloud_tags.png](https://github.com/kevkillion/TwitterBot_ChatGPT/blob/main/Wordcloud_tags.png)
 
 # **TwitterBot "ChatGPT" - PostgreSQL Connection - Plotly Visualisation**
 
