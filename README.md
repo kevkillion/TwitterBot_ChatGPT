@@ -1,8 +1,11 @@
-![Wordcloud](https://github.com/kevkillion/TwitterBot_ChatGPT/blob/main/Wordcloud_tags.png)
+
 
 # **TwitterBot "ChatGPT" - PostgreSQL Connection - Plotly Visualisation**
 
 This project involves analysibng 500,000 Tweets on ChatGPT for period January - March 2023. The connection to a PostgreSQL database allows for storage, extraction and manipulation of the data. Python in the form of a Jupyter Notebook is used to cleanse & transform the data for time series analysis, statistacal analysis, data exploration and sentiment analysis.
+
+![Wordcloud](https://github.com/kevkillion/TwitterBot_ChatGPT/blob/main/Wordcloud_tags.png)
+
 
 # Prerequisites 💻
 
