@@ -114,3 +114,4 @@ The following files were used in this project:
 # Conclusion
 
 This project demonstrates the power of Python Jupyter Notebook in connection with PostgreSQL to explore, manipulate and analyze large datasets at speed and with ease. It is also important to point out the high-powered python packages used in this project showing the dynamism to connect to external programs and softwares, pull live data from trading websites and control large datasets.
+
